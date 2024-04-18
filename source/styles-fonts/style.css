@@ -3,9 +3,11 @@
 * {
     font-family: 'Inter';
     font-weight: 300;
+    padding: 0;
+    margin: 0;
 }
 
-:root {
+/* :root {
     --saffron-50: #fefde8;
     --saffron-100: #fdf9c4;
     --saffron-200: #fdf28b;
@@ -17,27 +19,64 @@
     --saffron-800: #84500f;
     --saffron-900: #704113;
     --saffron-950: #412107;
-}
+} */
 
-
-header{
+.max-width {
     width: 100%;
-    height: auto;
-
-        & h1{
-            
-        }
-
-        & h3 {
-
-        }
 }
 
+.flex {
+    display: flex;
+}
 
-main {
+.flex-column {
+    flex-direction: column;
+}
 
-    & img{
-        width: 100%;
-    }
+.space-between {
+    justify-content: space-between;
+}
 
+.align-center {
+    align-items: center;
+}
+
+.ph-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ptb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.grid-c-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-c-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.bg-blue {
+    background-color: #2A3439;
+}
+
+.white-text {
+    color: white;
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
