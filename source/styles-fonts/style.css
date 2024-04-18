@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+:root {
+    --saffron-50: #fefde8;
+    --saffron-100: #fdf9c4;
+    --saffron-200: #fdf28b;
+    --saffron-300: #fbe349;
+    --saffron-400: #f8d117;
+    --saffron-500: #f4c10b;
+    --saffron-600: #c88e06;
+    --saffron-700: #9f6609;
+    --saffron-800: #84500f;
+    --saffron-900: #704113;
+    --saffron-950: #412107;
+}
+
+
+header{
+    width: 100%;
+    height: auto;
+
+        & h1{
+            
+        }
+
+        & h3 {
+
+        }
+}
+
+
+main {
+
+    & img{
+        width: 100%;
+    }
+
+}
